@@ -1,0 +1,27 @@
+//
+//  main.m
+//  AddressBook
+//
+//  Created by Kenneth Bambridge on 3/3/13.
+//  Copyright (c) 2013 Kenneth Bambridge. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "AddressCard.h"
+
+int main(int argc, const char * argv[])
+{
+
+    @autoreleasepool {
+			NSString *name = @"Kenneth Bambridge";
+			NSString *email = @"k.bambridge@me.com";
+			AddressCard *card = [[AddressCard alloc] init];
+
+			card.name = name;
+            card.email = email;
+
+			[card print];
+    }
+    return 0;
+}
+

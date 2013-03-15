@@ -1,0 +1,40 @@
+//
+//  main.m
+//  prog3
+//
+//  Created by Kenneth Bambridge on 12/22/12.
+//  Copyright (c) 2012 ClassroomM. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[])
+{
+
+    @autoreleasepool {
+        int numerator = 1;
+        int denominator = 3;
+
+        NSLog (@"The fraction is %i\%i", numerator, denominator);
+    }
+    return 0;
+}
+
+
+/*
+ * Object: Thermos
+ *
+ * Variables:
+ * 	- fillPercent
+ * 	- size
+ * 	- liquid
+ * 	- temperature
+ *
+ * Actions:
+ * 	- drink
+ * 	- fillWith: toLevel:
+ * 	- empty
+ * 	- checkTemperature
+ * 	- openCap
+ * 	- closeCap
+ */
