@@ -81,4 +81,11 @@
     }];
 }
 
+-(AddressBook *) copyWithZone: (NSZone *) zone
+{
+    AddressBook *book = [[AddressBook alloc] initWithName:self.bookName];
+    book.book = [self.book copy];
+    return book;
+}
+
 @end

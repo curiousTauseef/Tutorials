@@ -14,7 +14,7 @@
 @synthesize email = _email;
 
 
--(void) setName:(NSString *) theName setEmail: (NSString *) andEmail
+-(void) setName:(NSString *) theName andEmail: (NSString *) andEmail
 {
     self.name = theName;
     self.email = andEmail;

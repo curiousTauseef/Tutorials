@@ -44,6 +44,10 @@ int main(int argc, const char * argv[])
             NSLog (@"Not found!");
         [myBook removeCard: myCard];
         [myBook list];
+        
+        AddressBook *book2 = [myBook copy];
+        
+        [book2 list];
     }
     return 0;
 }

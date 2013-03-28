@@ -12,7 +12,6 @@
 #VARIABLES:
 #          %eax holds the system call number
 #          %ebx holds the return status
-
 .section .data
 
 .section .text
@@ -20,7 +19,6 @@
 _start:
 movl $1, %eax  # linux command for exiting a program
 
-movl $0, %ebx  # status number returned to op system
+movl $3, %ebx  # status number returned to op system
 
-int $0x80      # wakes up kernel to run the exit command
-
+int $0x80  # initialize system interrupt
