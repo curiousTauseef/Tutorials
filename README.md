@@ -1,5 +1,5 @@
 # Tutorials
-Tutorial programs I wrote for various languages. 
+Tutorial programs I wrote while learning various languages/technologies. 
 
 ## C
 
